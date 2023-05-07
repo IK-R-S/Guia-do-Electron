@@ -85,3 +85,20 @@ app.on('window-all-closed', () => {
   </body>
 </html>
 ```
+---
+Finalizado! Seua aplicativo Desktop está pronto, agora precisamos criar uma build de executável para os usuários finais.
+
+# Build
+## Instalando o Electron Packager
+```bash
+sudo npm install electron-packager -g
+```
+## Criando 
+```bash
+npx electron-packager <sourcedir> <appname> --platform=<platform> --arch=<arch> [optional flags...]
+```
+ou criando automaticamente uma versão compatível com seu sistema operacional...
+```bash
+electron-packager .
+```
+
