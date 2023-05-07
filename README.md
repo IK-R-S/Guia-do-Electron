@@ -1,5 +1,5 @@
-# electron-notes
-Notas de instalação e configuração básica do Electron
+# Instalação e configuração 🔧
+> Comece por aqui
 
 ## Instalando dependências necessárias
 ```bash
@@ -88,12 +88,12 @@ app.on('window-all-closed', () => {
 ---
 Finalizado! Seua aplicativo Desktop está pronto, agora precisamos criar uma build de executável para os usuários finais.
 
-# Build
+# Build 🖥️
 ## Instalando o Electron Packager
 ```bash
 sudo npm install electron-packager -g
 ```
-## Criando 
+## Criando o executável do seu aplicativo
 ```bash
 npx electron-packager <sourcedir> <appname> --platform=<platform> --arch=<arch> [optional flags...]
 ```
@@ -102,3 +102,4 @@ ou criando automaticamente uma versão compatível com seu sistema operacional..
 electron-packager .
 ```
 
+Feito isso é só terminar de configurar o que achar necessário no seu sistema para usar e distribuir seu aplicativo! 😎
